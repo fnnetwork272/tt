@@ -1,6 +1,6 @@
 import asyncio
 import re
-from curl_cffi import AsyncSession
+from curl_cffi.requests import AsyncSession
 from faker import Faker
 from colorama import init, Fore
 
